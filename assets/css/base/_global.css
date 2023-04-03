@@ -1,0 +1,34 @@
+/** Reset**/
+
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    box-sizing: border-box;
+} 
+
+a {
+    text-decoration: none;
+}
+
+/**Inserir configurações globais e que não tem alteração para o site**/
+
+html {
+    font-size: 62.5%; /**Igual a 10px**/
+}
+
+body {
+    background-color: var(--cor01);
+    font-family: var(--fonte-padrao);
+    
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor03), var(--cor06));
+    min-width: 150px;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 40px;
+}
