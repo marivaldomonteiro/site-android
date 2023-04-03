@@ -20,6 +20,7 @@ html {
 }
 
 body {
+    font-size: 1.3em;
     background-color: var(--cor01);
     font-family: var(--fonte-padrao);
     
@@ -31,4 +32,13 @@ header {
     text-align: center;
     font-weight: normal;
     padding-top: 40px;
+}
+nav {
+    background-color: var(--cor06);
+    color: white;
+    text-decoration: none;
+
+}
+nav > a {
+    text-decoration: none;
 }

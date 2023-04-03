@@ -3,7 +3,7 @@
 @font-face { /**fonte colocada na pasta fonts**/
     font-family: 'android';
     src: url('../../fonts/idroid.otf') format('opentype');
-    font-weight: normal;
+    font-weight: bold;
 } 
 
 :root {/**variáveis de fonte**/

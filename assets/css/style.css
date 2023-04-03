@@ -11,5 +11,47 @@ header > h1 {
 }
 header > p {
     font-family: var(--fonte-padrao);
+    min-width: 150px;
     color: white;
+    padding-bottom: 10px;
 }
+nav {
+    padding: 10px;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+nav > a:hover {
+    background-color: var(--cor05);
+    border-radius: 10px 0px;
+}
+article {
+    margin: auto;
+    max-width: 660px;
+    background-color: white;
+    padding: 20px;
+    
+}
+article > h1 {
+    font-family: var(--fonte-android);
+    color: var(--cor06);
+}
+article > p {
+    text-indent: 25px;
+    text-align: justify;
+    padding: 10px;
+}
+
+article > h2 {
+    background-image: linear-gradient(to right, var(--cor03), transparent);
+    font-family: var(--fonte-android);
+    font-size: 1.3em;
+    padding-left: 10px;
+    color: var(--cor06);    
+}
+
+article > img {
+    max-width: 630px;  
+} 
