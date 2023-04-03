@@ -1,0 +1,16 @@
+@charset "utf-8"; /**Para reconhecer acentuação**/
+
+@import url(/assets/base/_reset.css);
+
+:root {
+    --cor01:#666666;
+    --cor02:#666666;
+    --cor03:#666666;
+    --cor04:#666666;
+    --cor05:#666666;
+    --fonte01:'roboto', 'sans-serif';
+    --fonte02:'arial','sans-serif'; 
+} /**Variaveis para o arquivo**/
+
+ 
+
