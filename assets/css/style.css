@@ -20,11 +20,10 @@ header > p {
     max-width: 600px;
     padding: 0px 10px;
     margin: auto;
+    padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
-nav {
-    padding: 10px;
-}
+
 nav > a {
     text-decoration: none;
     color: white;
