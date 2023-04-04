@@ -6,14 +6,20 @@
 
 header > h1 {
     font-family: var(--fonte-destaque);
+    font-size: 3em;
     color: white;
     margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    
 }
 header > p {
     font-family: var(--fonte-padrao);
-    min-width: 150px;
+    font-size: 1.2em;
     color: white;
-    padding-bottom: 10px;
+    max-width: 600px;
+    padding: 0px 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 nav {
     padding: 10px;
@@ -22,36 +28,39 @@ nav > a {
     text-decoration: none;
     color: white;
     padding: 10px;
+    font-weight: bold;
+    transition-duration: .5s;
 }
+
 nav > a:hover {
-    background-color: var(--cor05);
+    background-color: var(--cor04);
+    color: var(--cor06);
     border-radius: 10px 0px;
 }
-article {
-    margin: auto;
-    max-width: 660px;
-    background-color: white;
-    padding: 20px;
-    
-}
-article > h1 {
+
+main h1 {
     font-family: var(--fonte-android);
-    color: var(--cor06);
+    color: var(--cor05);
 }
-article > p {
+main p {
     text-indent: 25px;
     text-align: justify;
     padding: 10px;
 }
 
-article > h2 {
+main h2 {
     background-image: linear-gradient(to right, var(--cor03), transparent);
     font-family: var(--fonte-android);
     font-size: 1.3em;
     padding-left: 10px;
-    color: var(--cor06);    
+    color: var(--cor05);    
 }
 
-article > img {
-    max-width: 630px;  
+main img {
+    width: 100%;
 } 
+main img.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
+}

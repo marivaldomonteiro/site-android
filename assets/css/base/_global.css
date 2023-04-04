@@ -27,18 +27,26 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor03), var(--cor06));
-    min-width: 150px;
+    background-image: linear-gradient(to bottom, var(--cor04), var(--cor06));
+    min-height: 150px;
     text-align: center;
     font-weight: normal;
     padding-top: 40px;
 }
 nav {
     background-color: var(--cor06);
+    padding: 10px;
     color: white;
     text-decoration: none;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.363);
 
 }
-nav > a {
-    text-decoration: none;
+
+main {
+    margin: auto;
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
