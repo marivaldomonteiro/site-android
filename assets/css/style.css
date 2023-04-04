@@ -10,6 +10,7 @@ header > h1 {
     color: white;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-weight: normal;
     
 }
 header > p {
@@ -19,6 +20,7 @@ header > p {
     max-width: 600px;
     padding: 0px 10px;
     margin: auto;
+    margin-bottom: 30px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 nav {
@@ -40,8 +42,9 @@ nav > a:hover {
 
 main h1 {
     font-family: var(--fonte-android);
-    font-weight: bolder;
+    font-weight: normal;
     color: var(--cor05);
+    font-size: 1.8em;
 }
 main p {
     text-indent: 30px;
@@ -55,6 +58,7 @@ main h2 {
     background-image: linear-gradient(to right, var(--cor03), transparent);
     font-family: var(--fonte-android);
     font-size: 1.3em;
+    font-weight: normal;
     text-indent: 10px;
     color: var(--cor05);    
 }
@@ -82,4 +86,54 @@ main a {
 main a:hover {
     text-decoration: underline;
     color: var(--cor04);
+}
+
+div.video {
+    background-color: var(--cor06);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+
+}
+
+aside > h3 {
+    background-color: var(--cor04);
+    margin: -10px -10px 0px -10px;
+    padding: 8px;
+    color: white;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    font-weight: normal;
+    
+}
+
+aside > ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+aside li {
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor02);
 }
